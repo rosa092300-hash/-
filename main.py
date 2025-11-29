@@ -35,8 +35,8 @@ elif op == "-":
 elif op == "*":
   st.success(f"a * b = {a * b}")
 elif op == "/":
-if b != 0:
-  st.success(f"a / b = {a / b}")
+  if b != 0:
+   st.success(f"a / b = {a / b}")
 else:
   st.error("Error: Division by zero is not allowed.")
 
